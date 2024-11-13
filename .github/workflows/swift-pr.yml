@@ -1,9 +1,8 @@
 name: PR
 
 on:
-    push:
+    pull_request:
         branches: [develop]
-    workflow_dispatch:
 
 jobs:
     tests:
